@@ -1,0 +1,17 @@
+{
+  "name": "cli-primitive-db",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "inquirer": "^7.0.0",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-plugin-prettier": "^3.4.1",
+    "prettier": "^2.8.3"
+  },
+  "license": "MIT"
+}

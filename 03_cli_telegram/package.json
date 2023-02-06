@@ -1,0 +1,20 @@
+{
+  "name": "my-node-project",
+  "version": "1.0.0",
+  "description": "An example project using Commander and node-telegram-bot-api",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "commander": "^10.0.0",
+    "dotenv": "^16.0.3",
+    "node-telegram-bot-api": "^0.61.0",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-plugin-prettier": "^3.4.1",
+    "prettier": "^2.8.3"
+  }
+}

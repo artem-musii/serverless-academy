@@ -1,0 +1,16 @@
+{
+  "name": "cli-interactive-sort",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "start": "node src/index.js"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-plugin-prettier": "^3.4.1",
+    "prettier": "^2.8.3"
+  }
+}
